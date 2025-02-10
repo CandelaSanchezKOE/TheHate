@@ -1,0 +1,24 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label start is defined twice, at File "game/Chapter_01.rpyc", line 4:
+
+and File "game/Intro.rpy", line 4:
+label start:
+
+
+The label Reintentar is defined twice, at File "game/Chapter_01.rpyc", line 15:
+
+and File "game/Intro.rpy", line 15:
+label Reintentar:
+
+
+The label Respuesta is defined twice, at File "game/Chapter_01.rpyc", line 21:
+
+and File "game/Intro.rpy", line 21:
+label Respuesta:
+
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Thu Feb  6 12:43:08 2025

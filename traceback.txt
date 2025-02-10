@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 6, in script
+    $ nombre = renpy.input("Contraseña", lenght=8)
+  File "game/script.rpy", line 6, in <module>
+    $ nombre = renpy.input("Contraseña", lenght=8)
+TypeError: renpy.input() got unexpected keyword argument(s): lenght
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 6, in script
+    $ nombre = renpy.input("Contraseña", lenght=8)
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 6, in <module>
+    $ nombre = renpy.input("Contraseña", lenght=8)
+  File "D:\renpy-8.3.4-sdk\renpy\exports\inputexports.py", line 142, in input
+    raise TypeError("renpy.input() got unexpected keyword argument(s): {}".format(", ".join(kwargs.keys())))
+TypeError: renpy.input() got unexpected keyword argument(s): lenght
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.3.4.24120703
+Pruebas_The_Hate 1.0
+Thu Feb  6 11:15:31 2025
